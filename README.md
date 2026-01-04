@@ -26,7 +26,7 @@
 本项目基于 [alpha-zero-general](https://github.com/suragnair/alpha-zero-general) 框架，但针对终极井字棋的高复杂度进行了深度定制。
 
 ### 架构亮点
-不同于传统的简单棋盘表示，**Alpha-USE** 采用了一套先进的 **6通道输入状态 (6-Channel Input State)**，帮助神经网络“看懂”棋局结构：
+不同于传统的简单棋盘表示，**Alpha-USE** 采用了 **6通道输入状态 (6-Channel Input State)**，帮助神经网络“看懂”棋局结构：
 
 *   **Channel 0**: 我方棋子位置 (微观)
 *   **Channel 1**: 敌方棋子位置 (微观)
@@ -46,19 +46,12 @@
 ### 安装
 
 ```bash
-git clone https://github.com/YourUsername/alpha-use.git
+git clone https://github.com/Milo-Dakota/alpha-use.git
 cd alpha-use
 pip install -r requirements.txt
 ```
 
 ### 使用方法
-
-与 AI 对战：
-
-```bash
-# 启动游戏：人类 vs AI
-python GUI.py
-```
 
 训练模型：
 
@@ -67,7 +60,15 @@ python GUI.py
 python main.py
 ```
 
+与 AI 对战：
+
+```bash
+# 启动游戏：人类 vs AI
+python GUI.py
+```
+
 ## 🤝 致谢
 
 *   感谢 [suragnair/alpha-zero-general](https://github.com/suragnair/alpha-zero-general) 提供的出色的 AlphaZero PyTorch 实现。
 *   致敬 DeepMind 的 AlphaGo Zero 原始论文。
+
