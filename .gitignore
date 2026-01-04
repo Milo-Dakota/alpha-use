@@ -1,0 +1,84 @@
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+ENV/
+
+# Python 包和依赖
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+share/python-wheels/
+
+# 开发工具配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 神经网络模型文件 - 您特别提到的
+*.pth.tar
+*.pth.tar.examples
+
+# 其他常见的模型文件格式（可选）
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+
+# 训练数据和其他大型数据文件
+*.csv
+*.npy
+*.npz
+*.jsonl
+*.tfrecords
+*.feather
+*.parquet
+*.hdf
+data/
+datasets/
+logs/
+checkpoints/
+
+# 训练过程中的临时文件
+*.log
+output/
+results/
+experiments/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 测试覆盖率和性能分析
+.coverage
+htmlcov/
+.pytest_cache/
+profiling/
